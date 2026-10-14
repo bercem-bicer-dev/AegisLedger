@@ -32,13 +32,4 @@ Web3 ve Blokzincir Katmanı: ethers.js (v6), MetaMask / Web3 Tarayıcı Cüzdanl
 
 Kriptoloji & ZK Simülasyonu: Groth16 devre yapıları, Keccak-256 / Pedersen taahhütleri (commitments), FHE simülasyon katmanı.
 
-📂 Proje Mimarisi
-Plaintext
-aegis-ledger/
-├── app/                  # Next.js App Router (Dashboard, Doğrulama, Denetçi Portalı)
-├── components/           # Modüler Arayüz Bileşenleri (Navbar, ZkProofForm, AuditorPortal vb.)
-├── context/              # Global Web3 Durum Yönetimi (ethers.js v6)
-├── utils/                # Kriptografi Simülatörleri, ZK-Prover ve Kontrat Bağlantıları
-├── contracts/            # Solidity Akıllı Sözleşmeleri (AegisSupplyChain.sol, IZKVerifier)
-└── types/                # Katı TypeScript Veri Tipleri ve Interface Tanımları
 
