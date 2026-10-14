@@ -41,40 +41,4 @@ aegis-ledger/
 ├── utils/                # Kriptografi Simülatörleri, ZK-Prover ve Kontrat Bağlantıları
 ├── contracts/            # Solidity Akıllı Sözleşmeleri (AegisSupplyChain.sol, IZKVerifier)
 └── types/                # Katı TypeScript Veri Tipleri ve Interface Tanımları
-🏁 Hızlı Başlangıç ve Kurulum
-AegisLedger'ı kendi bilgisayarınızda yerel olarak çalıştırmak için şu adımları izleyin:
 
-1. Depoyu Klonlayın
-Bash
-git clone https://github.com/kullanici-adi/aegis-ledger.git
-cd aegis-ledger
-2. Bağımlılıkları Yükleyin
-Bash
-npm install
-# veya yarn/pnpm kullanıyorsanız
-yarn install
-3. Geliştirici Sunucusunu Başlatın
-Bash
-npm run dev
-Tarayıcınızda http://localhost:3000 adresine giderek kurumsal kontrol panelini görüntüleyebilirsiniz.
-
-📜 Akıllı Sözleşmeye Genel Bakış (AegisSupplyChain.sol)
-Blokzincir üzerindeki ana doğrulayıcı sözleşme, harici ZK kanıtlarını kontrol eder ve taahhütleri güvenceye alır:
-
-Solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
-
-interface IZKVerifier {
-    function verifyProof(
-        uint256[2] memory a,
-        uint256[2][2] memory b,
-        uint256[2] memory c,
-        uint256[2] memory input
-    ) external view returns (bool);
-}
-🤝 Katkıda Bulunma
-Katkılarınızı, hata bildirimlerinizi ve yeni özellik isteklerinizi memnuniyetle karşılıyoruz! Lütfen Issues sayfasını kontrol etmekten çekinmeyin.
-
-📄 Lisans
-Bu proje MIT Lisansı altında dağıtılmaktadır. Detaylar için LICENSE dosyasına göz atabilirsiniz.
