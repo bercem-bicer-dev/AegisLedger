@@ -1,5 +1,5 @@
-🛡️ AegisLedger
-Yeni Nesil Kriptografik Tedarik Zinciri ve Finansal Doğrulama Platformu
+🛡️ AegisLedger : Yeni Nesil Kriptografik Tedarik Zinciri ve Finansal Doğrulama Platformu
+
 Sıfır-Bilgi Kanıtları (ZK-SNARKs), IoT Sensör İmzaları ve Tam Homomorfik Şifreleme (FHE) Gücüyle
 
 🚀 Problem: Şeffaflık vs. Ticari Sırlar
